@@ -31,7 +31,7 @@
           </ul>
         </li>
         <li><a href="#">Store</a></li>
-        <li><a href="#">Vote</a></li>
+        <li><a href="../Vote/MultiCubeUKVote.php">Vote</a></li>
         <li class="dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Support <span class="caret"></span></a>
           <ul class="dropdown-menu">
