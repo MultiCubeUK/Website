@@ -12,8 +12,7 @@
 <div class="news-module">
 <div class="news-title"><strong>Network</strong> News</div>
 <div class="news">
-    <div class="news-img"
-    </div>
+    <img src="./NewsImages/closure.png" class="news-img"/>
     <div class="news-article">
     </div>
 </div>
