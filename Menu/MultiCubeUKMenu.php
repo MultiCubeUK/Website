@@ -26,7 +26,7 @@
             <li><a href="#">Forums</a></li>
             <li><a href="#">Network Statistics</a></li>
             <li><a href="#">Network Rules</a></li>
-            <li><a href="#">Server Maps</a></li>
+            <li><a href="../Dynmap/MultiCubeUKDynmap.php">Server Maps</a></li>
             <li><a href="#">Apply For Staff</a></li>
           </ul>
         </li>
