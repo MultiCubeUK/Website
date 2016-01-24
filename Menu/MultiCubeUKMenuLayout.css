@@ -1,0 +1,37 @@
+.container-fluid {
+    background-color:#212121;
+    position:fixed;
+    width:100%
+}
+.navbar-brand>img {
+    margin-top:-10px;
+}
+.smalllogoimg {
+content:url("SmallLogo20161.png");
+}
+body {
+    background-color: #000;
+    background: url("bg2016.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Quicksand', sans-serif;
+}
+.navbar{
+    border:0px !important;
+}
+.nav navbar-nav li {
+    font-family: 'Quicksand', sans-serif;
+}
+.navbar-default .navbar-nav>li>a {
+    color:#fff !important;
+    font-family: 'Quicksand', sans-serif;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus,
+ .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.open>a,
+ .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+    background-color:gray !important;
+}
+.dropdown-menu>li>a, .dropdown-menu {
+    background-color:#197d93 !important;
+    color:#fff !important;
+}
