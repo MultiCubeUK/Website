@@ -17,7 +17,7 @@
       <h2>Social</h2>
       <ul class="multicube-sitemap">
           <li><a href="https://twitter.com/multicubeuk"><i class="fa fa-twitter fa-2x"></i></a></li>
-          <li class="multicube-sitemap-spacer"></li>
+          <li class="btn btn-block btn-social btn-twitter"></li>
           <li><a href="https://www.youtube.com/channel/UC9DCt6T-CpbhKqLjk6fudRA"><i class="fa fa-youtube fa-2x"></i></a></li>
           <li class="multicube-sitemap-spacer"></li>
           <li><a href="https://www.facebook.com/MultiCubeUK/"><i class="fa fa-facebook fa-2x"></i></a></li>
