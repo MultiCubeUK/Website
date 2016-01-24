@@ -31,7 +31,10 @@
       <li onclick="fluxSwitch()" class="dynLi">Project Flux</li>
       <li onclick="crundeeSwitch()" class="dynLi">Crundee Craft</li>
       <li onclick="crundee2Switch()" class="dynLi">Crundee Craft Node 2</li>
+      <li onclick="infinitySwitch()" class="dynLi">Infinity Evolved</li>
       <li onclick="creativeSwitch()" class="dynLi">Vanilla Creative</li>
+      <li onclick="pixelmonhubSwitch()" class="dynLi">Pixelmon Hub</li>
+      <li onclick="pixelmonsurvivalSwitch()" class="dynLi">Pixelmon Survival</li>
     </ul>
   </div>
 </div>
@@ -53,8 +56,20 @@
     <iframe class="dynmap" src="http://server2.multicube.co:8127">    
     </iframe>
 </div>
+<div id="infinity-frame">
+    <iframe class="dynmap" src="http://server2.multicube.co:8125">    
+    </iframe>
+</div>
 <div id="creative-frame">
     <iframe class="dynmap" src="http://server2.multicube.co:8123">    
+    </iframe>
+</div>
+<div id="pixelmonhub-frame">
+    <iframe class="dynmap" src="http://server2.multicube.co:6001">    
+    </iframe>
+</div>
+<div id="pixelmonsurvival-frame">
+    <iframe class="dynmap" src="http://server2.multicube.co:6002">    
     </iframe>
 </div>
 <script>
@@ -62,7 +77,10 @@
     var flux = document.getElementById("flux-frame");
     var crundee = document.getElementById("crundee-frame");
     var crundee2 = document.getElementById("crundee2-frame");
+    var infinity = document.getElementById("infinity-frame");
     var creative = document.getElementById("creative-frame");
+    var pixelmonhub = document.getElementById("pixelmonhub-frame");
+    var pixelmonsurvival = document.getElementById("pixelmonsurvival-frame");
     function resetDyn() {
         hub.style.display = "none";
         flux.style.display = "none";
@@ -86,9 +104,21 @@
         resetDyn();
         crundee2.style.display = "block";
     }
+    function infinitySwitch() {
+        resetDyn();
+        infinity.style.display = "block";
+    }
     function creativeSwitch() {
         resetDyn();
         creative.style.display = "block";
+    }
+    function pixelmonhubSwitch() {
+        resetDyn();
+        pixelmonhub.style.display = "block";
+    }
+    function pixelmonsurvivalSwitch() {
+        resetDyn();
+        pixelmonsurvival.style.display = "block";
     }
 </script>
 <!-- Footer -->
