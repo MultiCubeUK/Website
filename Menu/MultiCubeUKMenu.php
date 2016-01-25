@@ -37,7 +37,7 @@
           <ul class="dropdown-menu">
             <li><a href="#">Forums</a></li>
             <li><a href="#">Support Tickets</a></li>
-            <li><a href="#">FAQ</a></li>
+            <li><a href="../faq/MultiCubeUKFAQ.php">FAQ</a></li>
           </ul>
         </li>
       </ul>

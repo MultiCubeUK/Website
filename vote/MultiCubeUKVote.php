@@ -13,6 +13,7 @@
 
 <!-- Vote -->
 <script type="text/javascript">
+
  $(document).ready(function(){
 console.log("document loaded");
 
@@ -66,6 +67,17 @@ $('#iframebox').fadeOut(600).attr('src', 'http://minecraft-server-list.com/serve
 	   $('#span5').css('color','#f0f0f0');
 	   $('#span6').css('color','#f0f0f0');
 iframeState = 4;
+});
+
+$('#iframe5').click(function() {
+$('#iframebox').fadeOut(600).attr('src', 'http://www.planetminecraft.com/server/multicubeuk-factions/vote/').fadeIn(600);
+       $('#span1').css('color','#f0f0f0');
+       $('#span2').css('color','#f0f0f0');
+       $('#span3').css('color','#f0f0f0');
+	   $('#span4').css('color','#f0f0f0');
+	   $('#span5').css('color','#396e9f');
+	   $('#span6').css('color','#f0f0f0');
+iframeState = 5;
 });
 
 var iframeState = 1;
@@ -136,7 +148,19 @@ $('#iframebox').fadeOut(600).attr('src', 'http://minecraft-server-list.com/serve
 	   $('#span4').css('color','#396e9f');
 	   $('#span5').css('color','#f0f0f0');
 	   $('#span6').css('color','#f0f0f0');
-iframeState = 3;
+iframeState = 4;
+};
+
+function iframeFive(){
+
+$('#iframebox').fadeOut(600).attr('src', 'http://www.planetminecraft.com/server/multicubeuk-factions/vote/').fadeIn(600);
+       $('#span1').css('color','#f0f0f0');
+       $('#span2').css('color','#f0f0f0');
+       $('#span3').css('color','#f0f0f0');
+	   $('#span4').css('color','#f0f0f0');
+	   $('#span5').css('color','#396e9f');
+	   $('#span6').css('color','#f0f0f0');
+iframeState = 5;
 };
 
 function iframeSelector(){
@@ -157,6 +181,9 @@ case 3:
   
 case 4:
   iframeFour();
+  
+case 5:
+  iframeFive();
 
 default:
   iframeState=1;
@@ -179,7 +206,10 @@ default:
     <label for="iframe3"><span id="span3">Vote #3</span></label>  
 
     <input id="iframe4" name="options" value="website4" type="radio">
-    <label for="iframe4"><span id="span4">Vote #4</span></label>
+    <label for="iframe4"><span id="span4">Vote #4</span></label>  
+
+    <input id="iframe5" name="options" value="website5" type="radio">
+    <label for="iframe5"><span id="span4">Vote #5</span></label>
 </div>
 <!--
 <div id="buttons" align="center">
