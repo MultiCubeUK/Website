@@ -1,0 +1,9 @@
+.rules-container {
+    width:80%;
+    margin:0 auto;
+    background-color:rgba(0, 0, 0, 0.2);
+}
+.rules-content {
+    padding-left:5%;
+    padding-right:5%;
+}

@@ -2,6 +2,7 @@
 <html>
 
 <head>
+    <title></title>
     <link rel="stylesheet" type="text/css" href="../Menu/MultiCubeUKMenuLayout.css">
     <link rel="stylesheet" type="text/css" href="../Footer/MultiCubeUKFooterLayout.css">
     
