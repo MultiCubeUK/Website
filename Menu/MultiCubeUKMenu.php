@@ -30,7 +30,7 @@
             <li><a href="#">Apply For Staff</a></li>
           </ul>
         </li>
-        <li><a href="#">Store</a></li>
+        <li><a href="http://store.multicube.co/">Store</a></li>
         <li><a href="../Vote/MultiCubeUKVote.php">Vote</a></li>
         <li class="dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Support <span class="caret"></span></a>
