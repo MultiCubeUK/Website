@@ -14,21 +14,27 @@
 
 <body>
 <!-- Menu -->
-<?php include("../../Menu/MultiCubeUKMenu.php"); ?>
+<?php include("../../Menu/MultiCubeUKMenu.php"); ?><!-- 76-81 = online, 110 = onlinePlayers number --> 
 
 <!-- Crundee Player Count -->
-<div class="multicube-top"><img src="../../root/BigLogo20161.png" alt="MulticubeUK Logo" /></div>
-<div class="multicube-player-count"><span><?php include("PlayerCount.php"); ?><strong> Players</strong> Online</div>
-
-
 <?php
 require('MulticraftAPI.php');
 $api = new MulticraftAPI('http://multicraft.multicube.co/api.php ', 'Sander', 'e35cbba78574b71346b5');
-print_r($api->getServerStatus(22));
+$a = serialize($api->getServerStatus(22));
+if ($a[77] == "f") {
+    $serverOutput = "<strong>Server</strong> Offline";
+} else if ($a[111] != '"') {
+    $serverOutput = $a[110].$a[111]."/".$a[137].$a[138]." "."<strong>Players</strong> Online";
+} else {
+    $serverOutput = $a[110]."/".$a[136].$a[137]." "."<strong>Players</strong> Online";
+}
+$pcount = fopen("CrundeePlayerCount.php", "w");
+fwrite($pcount, $serverOutput);
+fclose($pcount);
 ?>
 
 <div class="multicube-top"><img src="../../root/BigLogo20161.png" alt="MulticubeUK Logo" /></div>
-<div class="multicube-player-count"><span><?php include("PlayerCount.php"); ?><strong> Players</strong> Online</div>
+<div class="multicube-player-count"><?php include("CrundeePlayerCount.php")?></div>
 
 <!-- Crundee Server Information -->
 <div class="server">
