@@ -25,3 +25,26 @@
     line-height: 65px;
     margin: auto;
 }
+.server {
+    margin-top:50px;
+}
+.server-header {
+    background: #131313!important;
+    font-size: 2.3em;
+    color: #fff;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    padding: 4px 0px;
+    width:80%;
+    margin:0 auto;
+}
+.server-info {
+    text-align:center;
+    background: #333333!important;
+    width: 80%;
+    min-height: 180px;
+    margin:0 auto; 
+    margin-top:5px;
+    padding: 15px;
+    font-family: 'Quicksand', sans-serif;
+}

@@ -5,6 +5,7 @@
     <title></title>
     <link rel="stylesheet" type="text/css" href="../Menu/MultiCubeUKMenuLayout.css">
     <link rel="stylesheet" type="text/css" href="../Footer/MultiCubeUKFooterLayout.css">
+    <link rel="stylesheet" type="text/css" href="../Footer/MultiCubeUKSocialButtonsLayout.css">
     
 </head>
 
@@ -16,11 +17,10 @@
 <?php include("../Menu/MultiCubeUKMenu.php"); ?>
 
 <!-- Social Buttons Home -->
-<div class="socialRow" style="">
-        <?php include("/twitter/MulticubeUKTwitter.php");?>
-        <?php include("/teamspeak/MultiCubeUKTeamspeak.php");?>
-        <?php include("/youtube/MultiCubeUKYoutube.php");?>
-</div>
+
+       <?php include("./teamspeak/MultiCubeUKTeamspeak.php");?>
+       <?php include("./twitter/MultiCubeUKTwitter.php");?>
+       <?php include("./youtube/MultiCubeUKYoutube.php");?>
 
 <!-- Footer -->
 <?php include("../Footer/MultiCubeUKFooter.php"); ?>
