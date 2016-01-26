@@ -1,5 +1,6 @@
-<?php echo '<div class="multicube-footer-spacer"></div>
+<div class="multicube-footer-spacer"></div>
 <div class="multicube-footer">
+<div class="multicube-footer-container">
   <div class="multicube-inner">
       <div class="multicube-box">
       <h2>Servers</h2>
@@ -35,5 +36,6 @@
       <p>Code developed by MultiCubeUK</p>
     </div>
   </div>
+  </div>
 </div>
-</div>'; ?>
+</div>

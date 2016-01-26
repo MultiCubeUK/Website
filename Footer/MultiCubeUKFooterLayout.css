@@ -1,20 +1,11 @@
 .multicube-footer {
   width: 100%;
   height: 275px;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0px;
-  right: 0px;
-  bottom: 0px;
   position: relative;
   background: #2e7583;
 }
-.multicube-footer .multicube-inner {
-/*  margin-left: 2220px; */
-  /*padding: 30px;*/
-  width:100%;
-  margin-left: 17%;
-  overflow: hidden;
+.multicube-footer-container {
+    margin-left:18%;
 }
 .multicube-footer .multicube-inner .multicube-box {
   padding: 20px;
@@ -53,9 +44,6 @@
 }
 .multicube-footer-spacer {
     height: 300px;
-}
-#contactInfo {
-    font-size:10px;
 }
 .multicube-box a {
     color:#fff !important;
