@@ -2,11 +2,10 @@
 <html>
 
 <head>
-    <title></title>
-    <link rel="stylesheet" type="text/css" href="../Menu/MultiCubeUKMenuLayout.css">
-    <link rel="stylesheet" type="text/css" href="../Footer/MultiCubeUKFooterLayout.css">
-    <link rel="stylesheet" type="text/css" href="../Footer/MultiCubeUKSocialButtonsLayout.css">
-    
+   <title></title>
+   <link rel="stylesheet" type="text/css" href="../Menu/MultiCubeUKMenuLayout.css">
+   <link rel="stylesheet" type="text/css" href="../Footer/MultiCubeUKFooterLayout.css">
+   
 </head>
 
 <style>
@@ -18,9 +17,13 @@
 
 <!-- Social Buttons Home -->
 
-       <?php include("./teamspeak/MultiCubeUKTeamspeak.php");?>
-       <?php include("./twitter/MultiCubeUKTwitter.php");?>
-       <?php include("./youtube/MultiCubeUKYoutube.php");?>
+<div class="socialRow" style="">
+<ul>
+       <li><?php include("/twitter/MulticubeUKTwitter.php");?>
+       <?php include("/teamspeak/MultiCubeUKTeamspeak.php");?>
+       <?php include("/youtube/MultiCubeUKYoutube.php");?></li>
+        </ul>
+</div>
 
 <!-- Footer -->
 <?php include("../Footer/MultiCubeUKFooter.php"); ?>
