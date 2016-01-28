@@ -1,28 +1,31 @@
 <!DOCTYPE html>
 <html>
 
+
 <head>
-   <title></title>
-   <link rel="stylesheet" type="text/css" href="../Menu/MultiCubeUKMenuLayout.css">
-   <link rel="stylesheet" type="text/css" href="../Footer/MultiCubeUKFooterLayout.css">
-   
+  <title></title>
+  <link href="http://getbootstrap.com/2.3.2/assets/css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="http://getbootstrap.com/2.3.2/assets/css/bootstrap-responsive.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" type="text/css" href="../Menu/MultiCubeUKMenuLayout.css">
+  <link rel="stylesheet" type="text/css" href="../Footer/MultiCubeUKFooterLayout.css">
 </head>
-
-<style>
-</style>
-
 <body>
+
 <!-- Menu -->
 <?php include("../Menu/MultiCubeUKMenu.php"); ?>
 
 <!-- Social Buttons Home -->
-
-<div class="socialRow" style="">
-<ul>
-       <li><?php include("/twitter/MulticubeUKTwitter.php");?>
-       <?php include("/teamspeak/MultiCubeUKTeamspeak.php");?>
-       <?php include("/youtube/MultiCubeUKYoutube.php");?></li>
-        </ul>
+<div class="modal-body">
+      <form class="form-horizontal">
+<div class="controls">
+      <div><?php include("/twitter/MulticubeUKTwitter.php");?></span></div>
+       </div>
+<div class="controls">
+      <div><?php include("/teamspeak/MultiCubeUKTeamspeak.php");?></div>
+       </div>
+<div class="controls">       
+      <div><?php include("/youtube/MultiCubeUKYoutube.php");?></div>
+       
 </div>
 
 <!-- Footer -->

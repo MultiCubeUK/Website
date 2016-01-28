@@ -48,3 +48,26 @@
     padding: 15px;
     font-family: 'Quicksand', sans-serif;
 }
+.server-status {
+    background: #333333!important;
+    width: 80%;
+    min-height: 180px;
+    margin:0 auto; 
+    margin-top:5px;
+    padding: 15px;
+    font-family: 'Quicksand', sans-serif;
+}
+.server-status-node2 {
+    background: #333333!important;
+    width: 80%;
+    min-height: 180px;
+    margin:0 auto; 
+    margin-top:-25px;
+    padding: 15px;
+    font-family: 'Quicksand', sans-serif;
+}
+.status-title {
+    color:#fff;
+    font-size:20px;
+    margin-bottom:-8px;
+}

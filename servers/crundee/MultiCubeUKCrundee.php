@@ -5,7 +5,7 @@
     <title>MultiCubeUK | Crundee Craft</title>
     <link rel="stylesheet" type="text/css" href="../../Menu/MultiCubeUKMenuLayout.css">
     <link rel="stylesheet" type="text/css" href="../../Footer/MultiCubeUKFooterLayout.css">
-    <link rel="stylesheet" type="text/css" href="MultiCubeUKCrundeeLayout.css">
+    <link rel="stylesheet" type="text/css" href="../MultiCubeUKServersLayout.css">
     
 </head>
 
@@ -14,32 +14,15 @@
 
 <body>
 <!-- Menu -->
-<?php include("../../Menu/MultiCubeUKMenu.php"); ?><!-- 76-81 = online, 110 = onlinePlayers number --> 
+<?php include("../../Menu/MultiCubeUKMenu.php"); ?>
 
-<!-- Crundee Player Count -->
-<?php
-require('MulticraftAPI.php');
-$api = new MulticraftAPI('http://multicraft.multicube.co/api.php ', 'Sander', 'e35cbba78574b71346b5');
-$a = serialize($api->getServerStatus(22));
-if ($a[77] == "f") {
-    $serverOutput = "<strong>Server</strong> Offline";
-} else if ($a[111] != '"') {
-    $serverOutput = $a[110].$a[111]."/".$a[137].$a[138]." "."<strong>Players</strong> Online";
-} else {
-    $serverOutput = $a[110]."/".$a[136].$a[137]." "."<strong>Players</strong> Online";
-}
-$pcount = fopen("CrundeePlayerCount.php", "w");
-fwrite($pcount, $serverOutput);
-fclose($pcount);
-?>
-
+<!-- Big Logo -->
 <div class="multicube-top"><img src="../../root/BigLogo20161.png" alt="MulticubeUK Logo" /></div>
-<div class="multicube-player-count"><?php include("CrundeePlayerCount.php")?></div>
 
 <!-- Crundee Server Information -->
 <div class="server">
     <div class="server-header">
-        <h1><strong>Crundee</strong>Craft</h1>
+        <h1><strong>Crundee </strong>Craft</h1>
     </div>
     <div class="server-info">
         <p><span style="color: #ffffff;">Crundee Craft - By SSundee, MrCrainer and Kehaan</span></p>
@@ -50,16 +33,71 @@ fclose($pcount);
 </div>
 
 <!-- Crundee Server Status -->
+<?php
+require('../../api/MulticraftAPI.php');
+$api = new MulticraftAPI('http://multicraft.multicube.co/api.php ', 'Sander', 'e35cbba78574b71346b5');
+$a = serialize($api->getServerStatus(22));
+$b = serialize($api->getServerStatus(25));
+/* Node 1 */
+if ($a[77] == "f") {
+    $serverOutput = "<strong>Server</strong> Offline";
+} else if ($a[111] != '"') {
+    $playerCount = $a[110].$a[111]/30*100;
+    $serverOutput = $a[110].$a[111]."/".$a[137].$a[138]." "."<strong>Players</strong> Online";
+} else {
+    $playerCount = $a[110]/30*100;
+    $serverOutput = $a[110]."/".$a[136].$a[137]." "."<strong>Players</strong> Online";
+}
+/* Node 2*/
+if ($b[77] == "f") {
+    $serverOutputB = "<strong>Server</strong Offline";
+} else if ($b[111] != '"') {
+    $playerCountB = $b[110].$b[111]/30*100;
+    $serverOutputB = $b[110].$b[111]."/".$b[137].$b[138]." "."<strong>Players</strong> Online";
+} else {
+    $playerCountB = $b[110]/30*100;
+    $serverOutputB = $b[110]."/".$b[136].$b[137]." "."<strong>Players</strong> Online";
+}?>
+<!-- Node 1 -->
 <div class="server">
     <div class="server-header">
-        <h1><strong>Server</strong>Status</h1>
+        <h1><strong>Server </strong>Status</h1>
+    </div>
+    <div class="server-status">
+        <p class="status-title">MultiCubeUK - Crundee Craft Node 1</p>
+        <span style="font-size:15px;color:#337ab7;">hub.multicube.co/crundee.multicube.co</span>
+        
+        <div class="container">
+            <br/>
+            <div class="progress" style="width:83%;text-align:center;">
+                <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: <?php echo $playerCount; ?>%;">
+                    <?php echo $serverOutput; ?>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Node 2 -->
+<div class="server">
+    <div class="server-status-node2">
+        <p class="status-title">MultiCubeUK - Crundee Craft Node 2</p>
+        <span style="font-size:15px;color:#337ab7;">hub.multicube.co/crundee2.multicube.co</span>
+        
+        <div class="container">
+            <br/>
+            <div class="progress" style="width:83%;text-align:center;">
+                <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: <?php echo $playerCountB; ?>%;">
+                    <?php echo $serverOutputB; ?>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
 <!-- Crundee Server Installation / Banned Item List -->
 <div class="server">
     <div class="server-header">
-        <h1><strong>Important</strong>Information</h1>
+        <h1><strong>Important </strong>Information</h1>
     </div>
     <div class="server-info">
         <p><span style="font-size: 24pt; color: #ffffff;">How to Install the Pack</span></p>
