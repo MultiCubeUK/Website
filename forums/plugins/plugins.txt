@@ -1,0 +1,17 @@
+Verify MC User - https://vanillaforums.org/addon/verifymcuser-plugin
+MC Server - https://vanillaforums.org/addon/mcserver-plugin
+TS Server - https://vanillaforums.org/addon/tsserver-plugin
+No Captcha ReCaptcha - https://vanillaforums.org/addon/nocaptcharecaptcha-plugin
+Favicon - https://vanillaforums.org/addon/favicon-plugin
+Spoilers - https://vanillaforums.org/addon/spoilers-plugin
+Scroll Top - https://vanillaforums.org/addon/scrolltop-plugin
+CloudFlare Support - https://vanillaforums.org/addon/cloudflaresupport-plugin
+Online Now - https://vanillaforums.org/addon/onlinenow-plugin
+Custom ToolTip - https://vanillaforums.org/addon/customtooltip-plugin
+Discussion Polls - https://vanillaforums.org/addon/discussionpolls-plugin
+IP2Location - https://vanillaforums.org/addon/ip2location-plugin
+
+DISCLAMER
+This is purely for having a list of plugins to be used on the site being worked
+on within this repo. We are not claiming to have made any of the plugins listed
+and within this document you can see the links to the original download location
