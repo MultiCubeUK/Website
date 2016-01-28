@@ -24,7 +24,7 @@
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">Community <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="#">Forums</a></li>
-            <li><a href="#">Network Statistics</a></li>
+            <li><a href="../servers/MultiCubeUKNetworkStatistics.php">Network Statistics</a></li>
             <li><a href="../rules/MultiCubeUKRules.php">Network Rules</a></li>
             <li><a href="../Dynmap/MultiCubeUKDynmap.php">Server Maps</a></li>
             <li><a href="#">Apply For Staff</a></li>
