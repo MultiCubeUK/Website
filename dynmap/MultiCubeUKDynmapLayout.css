@@ -3,7 +3,7 @@
     width:85%;
     height:1000px;
 }
-#flux-frame {
+#flux-frame, #crundee-frame, #crundee2-frame, #infinity-frame, #creative-frame, #pixelmonhub-frame, #pixelmonsurvival-frame {
     display:none;
 }
 .dropdown-menu li {

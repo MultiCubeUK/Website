@@ -86,7 +86,10 @@
         flux.style.display = "none";
         crundee.style.display = "none";
         crundee2.style.display = "none";
+        infinity.style.display = "none";
         creative.style.display = "none";
+        pixelmonhub.style.display = "none";
+        pixelmonsurvival.style.display = "none";
     }
     function hubSwitch() {
         resetDyn();

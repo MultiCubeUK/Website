@@ -3,9 +3,9 @@
 
 <head>
     <title>MultiCubeUK | Regrowth</title>
-    <link rel="stylesheet" type="text/css" href="../../Menu/MultiCubeUKMenuLayout.css">
-    <link rel="stylesheet" type="text/css" href="../../Footer/MultiCubeUKFooterLayout.css">
-    <link rel="stylesheet" type="text/css" href="../MultiCubeUKServersLayout.css">
+    <link rel="stylesheet" type="text/css" href="../Menu/MultiCubeUKMenuLayout.css">
+    <link rel="stylesheet" type="text/css" href="../Footer/MultiCubeUKFooterLayout.css">
+    <link rel="stylesheet" type="text/css" href="MultiCubeUKServersLayout.css">
     
 </head>
 
@@ -14,10 +14,10 @@
 
 <body>
 <!-- Menu -->
-<?php include("../../Menu/MultiCubeUKMenu.php"); ?>
+<?php include("../Menu/MultiCubeUKMenu.php"); ?>
 
 <!-- Big Logo -->
-<div class="multicube-top"><img src="../../root/BigLogo20161.png" alt="MulticubeUK Logo" /></div>
+<div class="multicube-top"><img src="../root/BigLogo20161.png" alt="MulticubeUK Logo" /></div>
 
 <!-- Flux Server Information -->
 <div class="server">
@@ -34,7 +34,7 @@
 
 <!-- Flux Server Status -->
 <?php
-require('../../api/MulticraftAPI.php');
+require('../api/MulticraftAPI.php');
 $api = new MulticraftAPI('http://multicraft.multicube.co/api.php ', 'Sander', 'e35cbba78574b71346b5');
 $a = serialize($api->getServerStatus(38));
 if ($a[77] == "f") {
@@ -83,7 +83,7 @@ if ($a[77] == "f") {
 </div>
 
 <!-- Footer -->
-<?php include("../../Footer/MultiCubeUKFooter.php"); ?>
+<?php include("../Footer/MultiCubeUKFooter.php"); ?>
 </body>
 
 </html>

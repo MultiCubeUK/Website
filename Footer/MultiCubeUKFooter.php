@@ -5,12 +5,14 @@
       <div class="multicube-box">
       <h2>Servers</h2>
       <ul class="multicube-sitemap">
-          <li><a href="/crundeecraft">CrundeeCraft</a></li>
-          <li><a href="/projectflux">Project Flux</a></li>
-          <li><a href="/infinityevolved">Infinity Evolved</a></li>
-          <li><a href="/vanillafactions">Vanilla Factions</a></li>
-          <li><a href="/vanillacreative">Vanilla Creative</a></li>
-          <li><a href="/pixelmonsurvival">Pixelmon Survival</a></li>
+          <li><a href="../servers/MultiCubeUKCrundee.php">CrundeeCraft</a></li>
+          <li><a href="../servers/MultiCubeUKFlux.php">Project Flux</a></li>
+          <li><a href="../servers/MultiCubeUKMainline.php">RR3 Mainline</a></li>
+          <li><a href="../servers/MultiCubeUKRegrowth.php">FTB Regrowth</a></li>
+          <li><a href="../servers/MultiCubeUKInfinity.php">Infinity Evolved</a></li>
+          <li><a href="../servers/MultiCubeUKFactions.php">Vanilla Factions</a></li>
+          <li><a href="../servers/MultiCubeUKCreative.php">Vanilla Creative</a></li>
+          <li><a href="../servers/MultiCubeUKPixelmon.php">Pixelmon Survival</a></li>
           <li><a href="ts3server://ts.multicube.co:4753">Join Teamspeak</a></li>
       </ul>
     </div>
