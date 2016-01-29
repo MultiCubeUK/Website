@@ -19,13 +19,10 @@
 <!-- Network Wide Player Count -->
 <?php include_once '../root/status.class.php'; 
 $status = new MinecraftServerStatus(); 
-$response = $status->getStatus('151.80.33.216', 25565, '1.7.10'); 
-$playerFile = fopen("PlayerCount.php", "w");
-fwrite($playerFile, $response['players']);
-fclose($playerFile);
+$response = $status->getStatus('151.80.33.216', 25565, '1.7.10');
 ?>
 <div class="multicube-top"><img src="../root/BigLogo20161.png" alt="MulticubeUK Logo" /></div>
-<div class="multicube-player-count"><span><?php include("PlayerCount.php"); ?><strong> Players</strong> Online</div>
+<div class="multicube-player-count"><span><?php echo $response['players']; ?><strong> Players</strong> Online</div>
 
 <!-- Crundee Server Status -->
 <?php
