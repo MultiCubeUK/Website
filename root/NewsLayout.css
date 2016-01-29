@@ -1,5 +1,5 @@
 .news-title {
-    width:80%;
+    width:76%;
     background-color:#131313;
     height:60px;
     font-size: 2.3em;
@@ -14,17 +14,18 @@
 }
 .news-content {
     margin-top:5px;
-    margin-left:10%;
+    margin-left:12%;
+    margin-bottom:100px;
 }
 #news, #news3 {
     background-color:#333333;
-    width:29.3%;
+    width:28.45%;
     height:300px;
     float:left;
 }
 #news2 {
     background-color:#333333;
-    width:29.3%;
+    width:28.45%;
     height:300px;
     float:left;
     margin-left:0.5%;
@@ -46,4 +47,8 @@
 }
 #hide, #hide2, #hide3 {
     display:none;
+}
+.newsdiv {
+    margin-top:50px;
+    margin-bottom:150px;
 }

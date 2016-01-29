@@ -26,7 +26,7 @@ $response = $status->getStatus('151.80.33.216', 25565, '1.7.10');
 <div class="multicube-player-count"><span><?php echo $response['players']; ?><strong> Players</strong> Online</div>
 
 <!-- News Module -->
-<div style="margin-top:50px;margin-bottom:100px;">
+<div class="newsdiv">
 <?php include("News.php"); ?>
 </div>
 
