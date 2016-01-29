@@ -1,4 +1,4 @@
-Dear Cubers,<span class="rm" onclick="expandNews2()"><strong>Read More</strong></span><br/><br/>
+Dear Cubers,<span class="rm" onclick="expandNews2()">Read More</span><br/><br/>
 
 Just to make you all aware, we have taken the decision to close Crainer, in favour of a more popular pack.<br/><br/>
 

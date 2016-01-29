@@ -44,6 +44,7 @@
     color:#337ab7;
     text-decoration:underline;
     cursor:pointer;
+    font-weight:bold;
 }
 #hide, #hide2, #hide3 {
     display:none;
