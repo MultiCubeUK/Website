@@ -113,7 +113,7 @@ function switchVote() {
         case 3:
             voteReset();
             v3.style.display = "block";
-            frame.src = "https://servers.atlauncher.com/server/MultiCubeNetworkPixelmon";
+            frame.src = "https://servers.atlauncher.com/server/1539";
             break;
         /*case 4:
             voteReset();
