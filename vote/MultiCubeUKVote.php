@@ -2,6 +2,7 @@
 <html>
 
 <head>
+    <title>MultiCubeUK | Vote</title>
     <link rel="stylesheet" type="text/css" href="../Menu/MultiCubeUKMenuLayout.css">
     <link rel="stylesheet" type="text/css" href="../Footer/MultiCubeUKFooterLayout.css">
     <link rel="stylesheet" type="text/css" href="MultiCubeUKVoteLayout.css">
