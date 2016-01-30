@@ -1,21 +1,19 @@
 .multicube-footer {
-  width: 100%;
-  height: 285px;
-  position: relative;
   background: #2e7583;
-}
-.multicube-footer-container {
-    margin-left:18%;
+  position:absolute;
+  margin-top:275px;
 }
 .multicube-footer .multicube-inner .multicube-box {
-  padding: 20px;
-  width: 220px;
   float: left;
-  text-align: left;
-  line-height: 18px;
+  min-width:20%;
+  max-width:20%;
   font-family: 'Quicksand', sans-serif;
   color: #fff !important;
   font-size: 16px;
+  padding-top:20px;
+  padding-right:10px;
+  padding-left:10px;
+  padding-bottom:20px;
 }
 
 .multicube-footer .multicube-inner .multicube-box h2 {
@@ -23,28 +21,15 @@
   font-weight: bold;
   color: #fff !important;
   border-bottom: 2px solid rgba(255,255,255,0.2);
-  margin-bottom: 8px;
   padding-bottom: 8px;
-}
-.multicube-footer .multicube-inner .multicube-box .multicube-sitemap {
-  list-style: none;
-}
-    .multicube-footer .multicube-sitemap {
-        padding-left: 0px !important;
-    }
-        .multicube-footer .multicube-sitemap .multicube-sitemap-spacer {
-            height: 15px;
-        }
-.multicube-footer .multicube-inner .multicube-box .multicube-sitemap a {
-  color: #fff !important;
-  text-decoration: none;
 }
 .multicube-footer .multicube-inner .multicube-box .multicube-sitemap a:hover {
   text-decoration: underline;
 }
-.multicube-footer-spacer {
-    height: 300px;
-}
 .multicube-box a {
     color:#fff !important;
+    text-decoration:none;
+}
+.multicube-inner {
+    margin-left:16%;
 }
