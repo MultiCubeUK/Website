@@ -40,10 +40,11 @@ $a = serialize($api->getServerStatus(38));
 if ($a[77] == "f") {
     $serverOutput = "<strong>Server</strong> Offline";
 } else if ($a[111] != '"') {
-    $playerCount = $a[110].$a[111]/30*100;
-    $serverOutput = $a[110].$a[111]."/".$a[137].$a[138]." "."<strong>Players</strong> Online";
+    $aa = $a[110].$a[111];
+    $playerCount = $aa / 30 * 100;
+    $serverOutput = $aa."/".$a[137].$a[138]." "."<strong>Players</strong> Online";
 } else {
-    $playerCount = $a[110]/30*100;
+    $playerCount = $a[110] / 30 * 100;
     $serverOutput = $a[110]."/".$a[136].$a[137]." "."<strong>Players</strong> Online";
 }?>
 <div class="server">

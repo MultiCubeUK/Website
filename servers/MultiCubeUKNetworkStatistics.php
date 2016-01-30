@@ -41,89 +41,98 @@ $i = serialize($api->getServerStatus(32));
 if ($a[77] == "f") {
     $serverOutput = "<strong>Server</strong> Offline";
 } else if ($a[111] != '"') {
-    $playerCount = $a[110].$a[111]/30*100;
-    $serverOutput = $a[110].$a[111]."/".$a[137].$a[138]." "."<strong>Players</strong> Online";
+    $aa = $a[110].$a[111];
+    $playerCount = $aa / 30 * 100;
+    $serverOutput = $aa."/".$a[137].$a[138]." "."<strong>Players</strong> Online";
 } else {
-    $playerCount = $a[110]/30*100;
+    $playerCount = $a[110] / 30 * 100;
     $serverOutput = $a[110]."/".$a[136].$a[137]." "."<strong>Players</strong> Online";
 }
 
 if ($b[77] == "f") {
     $serverOutputB = "<strong>Server</strong Offline";
 } else if ($b[111] != '"') {
-    $playerCountB = $b[110].$b[111]/30*100;
-    $serverOutputB = $b[110].$b[111]."/".$b[137].$b[138]." "."<strong>Players</strong> Online";
+    $bb = $b[110].$b[111];
+    $playerCountB = $bb / 30 * 100;
+    $serverOutputB = $bb."/".$b[137].$b[138]." "."<strong>Players</strong> Online";
 } else {
-    $playerCountB = $b[110]/30*100;
+    $playerCountB = $b[110] / 30 * 100;
     $serverOutputB = $b[110]."/".$b[136].$b[137]." "."<strong>Players</strong> Online";
 }
 
 if ($c[77] == "f") {
     $serverOutputC = "<strong>Server</strong> Offline";
 } else if ($c[111] != '"') {
-    $playerCountC = $c[110].$c[111]/30*100;
-    $serverOutputC = $c[110].$c[111]."/".$c[137].$c[138]." "."<strong>Players</strong> Online";
+    $cc = $c[110].$c[111];
+    $playerCountC = $cc / 30 * 100;
+    $serverOutputC = $cc."/".$c[137].$c[138]." "."<strong>Players</strong> Online";
 } else {
-    $playerCountC = $c[110]/30*100;
+    $playerCountC = $c[110] / 30 * 100;
     $serverOutputC = $c[110]."/".$c[136].$c[137]." "."<strong>Players</strong> Online";
 }
 
 if ($d[77] == "f") {
     $serverOutputD = "<strong>Server</strong> Offline";
 } else if ($d[111] != '"') {
-    $playerCountD = $d[110].$d[111]/30*100;
-    $serverOutputD = $d[110].$d[111]."/".$d[137].$d[138]." "."<strong>Players</strong> Online";
+    $dd = $d[110].$d[111];
+    $playerCountD = $dd / 30 * 100;
+    $serverOutputD = $dd."/".$d[137].$d[138]." "."<strong>Players</strong> Online";
 } else {
-    $playerCountD = $d[110]/30*100;
+    $playerCountD = $d[110] / 30 * 100;
     $serverOutputD = $d[110]."/".$d[136].$d[137]." "."<strong>Players</strong> Online";
 }
 
 if ($e[77] == "f") {
     $serverOutputE = "<strong>Server</strong> Offline";
 } else if ($e[111] != '"') {
-    $playerCountE = $e[110].$e[111]/30*100;
-    $serverOutputE = $e[110].$e[111]."/".$e[137].$e[138]." "."<strong>Players</strong> Online";
+    $ee = $e[110].$e[111];
+    $playerCountE = $ee / 30 * 100;
+    $serverOutputE = $ee."/".$e[137].$e[138]." "."<strong>Players</strong> Online";
 } else {
-    $playerCountE = $e[110]/30*100;
+    $playerCountE = $e[110] / 30 * 100;
     $serverOutputE = $e[110]."/".$e[136].$e[137]." "."<strong>Players</strong> Online";
 }
 
 if ($f[77] == "f") {
     $serverOutputF = "<strong>Server</strong> Offline";
 } else if ($f[111] != '"') {
-    $playerCountF = $f[110].$f[111]/30*100;
-    $serverOutputF = $f[110].$f[111]."/".$f[137].$f[138]." "."<strong>Players</strong> Online";
+    $ff = $f[110].$f[111];
+    $playerCountF = $ff / 30 * 100;
+    $serverOutputF = $ff."/".$f[137].$f[138]." "."<strong>Players</strong> Online";
 } else {
-    $playerCountF = $f[110]/30*100;
+    $playerCountF = $f[110] / 30 * 100;
     $serverOutputF = $f[110]."/".$f[136].$f[137]." "."<strong>Players</strong> Online";
 }
 
 if ($g[77] == "f") {
     $serverOutputG = "<strong>Server</strong> Offline";
 } else if ($g[111] != '"') {
-    $playerCountG = $g[110].$g[111]/50*100;
-    $serverOutputG = $g[110].$g[111]."/".$g[137].$g[138]." "."<strong>Players</strong> Online";
+    $gg = $g[110].$g[111];
+    $playerCountG = $gg / 50 * 100;
+    $serverOutputG = $gg."/".$g[137].$g[138]." "."<strong>Players</strong> Online";
 } else {
-    $playerCountG = $g[110]/30*100;
+    $playerCountG = $g[110] / 30 * 100;
     $serverOutputG = $g[110]."/".$g[136].$g[137]." "."<strong>Players</strong> Online";
 }
 
 if ($h[77] == "f") {
     $serverOutputH = "<strong>Server</strong> Offline";
 } else if ($h[111] != '"') {
-    $playerCountH = $h[110].$h[111]/40*100;
-    $serverOutputH = $h[110].$h[111]."/".$h[137].$h[138]." "."<strong>Players</strong> Online";
+    $hh = $h[110].$h[111];
+    $playerCountH = $hh / 40 * 100;
+    $serverOutputH = $hh."/".$h[137].$h[138]." "."<strong>Players</strong> Online";
 } else {
-    $playerCountH = $h[110]/30*100;
+    $playerCountH = $h[110] / 30 * 100;
     $serverOutputH = $h[110]."/".$h[136].$h[137]." "."<strong>Players</strong> Online";
 }
 if ($i[77] == "f") {
     $serverOutputI = "<strong>Server</strong> Offline";
 } else if ($i[111] != '"') {
-    $playerCountI = $i[110].$i[111]/50*100;
-    $serverOutputI = $i[110].$i[111]."/".$i[137].$i[138]." "."<strong>Players</strong> Online";
+    $ii = $i[110].$i[111];
+    $playerCountI = $ii / 50 * 100;
+    $serverOutputI = $ii."/".$i[137].$i[138]." "."<strong>Players</strong> Online";
 } else {
-    $playerCountI = $i[110]/30*100;
+    $playerCountI = $i[110] / 30 * 100;
     $serverOutputI = $i[110]."/".$i[136].$i[137]." "."<strong>Players</strong> Online";
 }
 ?>

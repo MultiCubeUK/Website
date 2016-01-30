@@ -42,20 +42,22 @@ $b = serialize($api->getServerStatus(25));
 if ($a[77] == "f") {
     $serverOutput = "<strong>Server</strong> Offline";
 } else if ($a[111] != '"') {
-    $playerCount = $a[110].$a[111]/30*100;
-    $serverOutput = $a[110].$a[111]."/".$a[137].$a[138]." "."<strong>Players</strong> Online";
+    $aa = $a[110].$a[111];
+    $playerCount = $aa / 30 * 100;
+    $serverOutput = $aa."/".$a[137].$a[138]." "."<strong>Players</strong> Online";
 } else {
-    $playerCount = $a[110]/30*100;
+    $playerCount = $a[110] / 30 * 100;
     $serverOutput = $a[110]."/".$a[136].$a[137]." "."<strong>Players</strong> Online";
 }
 /* Node 2*/
 if ($b[77] == "f") {
     $serverOutputB = "<strong>Server</strong Offline";
 } else if ($b[111] != '"') {
-    $playerCountB = $b[110].$b[111]/30*100;
-    $serverOutputB = $b[110].$b[111]."/".$b[137].$b[138]." "."<strong>Players</strong> Online";
+    $bb = $b[110].$b[111];
+    $playerCountB = $bb / 30 * 100;
+    $serverOutputB = $bb."/".$b[137].$b[138]." "."<strong>Players</strong> Online";
 } else {
-    $playerCountB = $b[110]/30*100;
+    $playerCountB = $b[110] / 30 * 100;
     $serverOutputB = $b[110]."/".$b[136].$b[137]." "."<strong>Players</strong> Online";
 }?>
 <!-- Node 1 -->
