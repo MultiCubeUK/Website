@@ -10,6 +10,7 @@
 </head>
 
 <style>
+#chat { width: 25%; float: right }
 </style>
 
 <body>
@@ -22,8 +23,11 @@
     <param name="allowNetworking" value="all" />
     <param name="movie" value="http://www.twitch.tv/widgets/live_embed_player.swf" />
     <param name="flashvars" value="hostname=www.twitch.tv&channel=eddieruckus&auto_play=true&start_volume=25" />
+    
 </object>
 
+            <iframe frameborder="0" scrolling="no" src="http://twitch.tv/eddieruckus/chat?popout="  height="500" width="350">
+            </iframe>
 <!-- Footer -->
 <?php include("./Footer/MultiCubeUKFooter.php"); ?>
 </body>

@@ -1,7 +1,7 @@
 <!-- TeamSpeak Button -->
 <div class="container">
   <!-- Trigger the modal with a button -->
-       <img src="./teamspeak/tsicon.png" data-toggle="modal" data-target="#myModalTS">
+       <img class="tsbutton" src="../social/teamspeak/tsicon.png" data-toggle="modal" data-target="#myModalTS">
 
   <!-- Modal -->
   <div class="modal fade" id="myModalTS" role="dialog">
@@ -32,7 +32,7 @@
       
     </div>
   </div>
-  
+  </div>
 </div>
 <script>
 $.getJSON('https://api.planetteamspeak.com/serverstatus/216.127.64.88:4753/', function(json)

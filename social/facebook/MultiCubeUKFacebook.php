@@ -1,12 +1,11 @@
-
-<!-- YouTube Button -->
+<!-- FaceBook Button -->
 <div class="container">
   <!-- Trigger the modal with a button -->
-       <img class="ytbutton" src="../social/youtube/ytlogo.png" data-toggle="modal" data-target="#myModal">
+       <img class="fbbutton" src="../social/facebook/facebooklogo.png" data-toggle="modal" data-target="#myModalF">
 
   <!-- Modal -->
-  <div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog" style="width:90%;">
+  <div class="modal fade" id="myModalF" role="dialog">
+    <div class="modal-dialog" >
     
       <!-- Modal content-->
       <div class="modal-content" style="background-color:#212121;">
@@ -14,13 +13,16 @@
           <button type="button" class="close" data-dismiss="modal" style="background-color:white;border-radius:15px;">&times;</button>
           
         </div>
-        <div class="modal-body">
-          <iframe width="100%" height="577" src="https://www.youtube.com/embed/AzJh5xUXMU8?list=PLhiZtT_X0ejfObtvCzNd6OpC2071s6uJS;showinfo=1" frameborder="1" allowfullscreen></iframe>
+        <div class="modal-body" style="text-align:center;">
+            <p>something</p>
+		 <div>
+            <p>something too!!!</p>
         </div>
         <div class="modal-footer">
         </div>
       </div>
       
     </div>
+  </div>
   </div>
 </div>

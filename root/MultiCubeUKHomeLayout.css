@@ -17,3 +17,32 @@
     line-height: 65px;
     margin: auto;
 }
+.tbutton {
+    z-index:989;
+    margin-left:-5%;
+    
+}
+.fbbutton {
+    z-index:989;
+    margin-top:-170px;
+    margin-right:-5%;
+    float:right;
+}
+.twbutton {
+    margin-left:15%;
+    margin-top:62px;
+    z-index:989;
+}
+.tsbutton {
+    margin-left:37%;
+    margin-top:-240px;
+    z-index:899;
+}
+.ytbutton {
+    margin-left:66%;
+    margin-top:-231px;
+    z-index:799;
+}
+.top-social-row {
+    margin-bottom:-150px;
+}
